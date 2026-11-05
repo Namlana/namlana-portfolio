@@ -265,3 +265,19 @@ footer {
     #about { flex-direction: column; text-align: center; }
     section { margin: 40px 0; }
 }
+#speak-button,
+#stop-button {
+    padding: 12px 18px;
+    margin: 5px;
+    font-size: 18px;
+    background: #ffffff;
+    color: #111111;
+    border: 2px solid #111111;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#speak-button:focus-visible,
+#stop-button:focus-visible {
+    outline: 3px solid #1677ff;
+    outline-offset: 3px;
+}
